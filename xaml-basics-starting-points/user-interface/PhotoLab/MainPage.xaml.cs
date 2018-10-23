@@ -85,6 +85,9 @@ namespace PhotoLab
                     Images.Add(await LoadImageInfo(file));
                 }
             }
+            //ImageGridView.ItemsSource = Images;
+            // Replaced with XAML binding
+
         }
 
        public async static Task<ImageFileInfo> LoadImageInfo(StorageFile file)

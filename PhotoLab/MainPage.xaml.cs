@@ -126,6 +126,7 @@ namespace PhotoLab
                     unsupportedFilesFound = true;
                 }
             }
+            ImageGridView.ItemsSource = Images;
 
             if (unsupportedFilesFound == true)
             {
