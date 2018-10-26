@@ -514,7 +514,10 @@
                                 </DataTemplate>
                             </telerikInput:RadRating.EmptyIconContentTemplate>
                         </telerikInput:RadRating>
-                        <Slider Header="Exposure"
+                                
+                                 
+
+                                 <Slider Header="Exposure"
                                 Grid.Row="2"
                                 Foreground="Transparent"
                                 Value="{x:Bind item.Exposure, Mode=TwoWay}"
@@ -584,7 +587,7 @@
                                    Grid.Column="1"
                                    Style="{StaticResource ValueTextBox}"
                                    Text="{x:Bind item.Tint.ToString('N', culture), Mode=OneWay}" />
-
+                        
                         <Slider Header="Contrast"
                                 Grid.Row="5"
                                 Foreground="Transparent"
